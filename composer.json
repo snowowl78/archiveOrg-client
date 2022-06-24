@@ -1,0 +1,16 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snowowl78\\ArchiveOrg\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Snowowl78\\ArchiveOrg\\Test\\": "tests/"
+        }
+    }
+}
